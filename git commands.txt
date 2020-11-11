@@ -18,7 +18,7 @@ git config --global user.email sample@mail.com (your github email you used to ma
 *****Mine looks like this after its done****
 PS C:\Users\Trevor\Desktop\project\project2020> git init
 Initialized empty Git repository in C:/Users/Trevor/Desktop/project/project2020/.git/
-PS C:\Users\Trevor\Desktop\project\project2020> git config --global user.name "tlongmir"
+PS C:\Users\Trevor\Desktop\project\project2020> git config --global user.name "myname"
 PS C:\Users\Trevor\Desktop\project\project2020> git config --global user.email dpione@live.com
 
 Now that you have your git file setup within your project folder, github knows your global username and 
