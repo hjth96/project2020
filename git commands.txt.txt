@@ -1,0 +1,36 @@
+Hey all, 
+I hope this makes things easier. You can make push requests directly on the site I think
+or you can make them from the command line. 
+
+1. Make a github account 
+2. Try making a folder on your desktop (can be any name)
+3. access your folder from your command line. (mac and PC commands are different)
+4. You can still use IDLE or use whatever IDE you want. 
+5. I'm using windows for this project so the following looks like this for me. 
+	
+PS C:\Users\Trevor\Desktop\project\project2020>
+
+Now type the following and hit enter after each line. 
+git init
+git config --global user.name "username" (your git hub username)
+git config --global user.email sample@mail.com (your github email you used to make your account)
+
+*****Mine looks like this after its done****
+PS C:\Users\Trevor\Desktop\project\project2020> git init
+Initialized empty Git repository in C:/Users/Trevor/Desktop/project/project2020/.git/
+PS C:\Users\Trevor\Desktop\project\project2020> git config --global user.name "tlongmir"
+PS C:\Users\Trevor\Desktop\project\project2020> git config --global user.email dpione@live.com
+
+Now that you have your git file setup within your project folder, github knows your global username and 
+email so now you can start adding and pulling from github.
+
+copy and paste this into your command line in the same directory you just made 
+
+This line will copy the whole project that I have, after you hit enter, you should see 
+the edit.py and main.py files in your folder. 
+
+git clone https://github.com/tlongmir/project2020.git
+
+
+This line will pull any changes made and refresh your edit.py and main.py files
+git pull https://github.com/tlongmir/project2020.git
