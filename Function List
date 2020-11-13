@@ -1,0 +1,25 @@
+Random Walk Model 
+
+
+Functions
+1)	Create turtles and choose random heading- start in center of board  
+2)	Board Boundaries- Four functions (atLeftEdge, atRightEdge, atTopEdge, atBottomEdge)
+3)	Opposite direction (if turtle gets to edge of board)- returns new heading- random except 3 positions that make it go off the edge of screen   
+4)	Step Counter- counts the number of steps, terminates program once step number reaches user input 
+5)	Random Movement function- picks 1 of 8 headings randomly for each new step taken
+6)	Highlight function-to show where they started to where they ended 
+
+
+
+
+
+
+
+#main 
+Program greeting 
+Set up screen size 
+Ask User how many turtles 
+Ask User how many steps to take 
+Begin simulation 
+Exit turtle window 
+
